@@ -1,0 +1,13 @@
+<div>
+    <ul id="list">
+        <li><button onclick="add()">+</button></li>
+    </ul>
+</div>
+
+<script type="text/javascript">
+        var list = document.getElementById("list");
+        function add()
+        {
+            list.innerHTML = "<li><input type='checkbox'/><input type='text'/></li>" + list.innerHTML;
+        }
+</script>
